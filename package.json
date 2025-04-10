@@ -1,0 +1,34 @@
+{
+  "name": "rust-server-monitor",
+  "version": "1.0.0",
+  "description": "Discord bot to monitoring Rust server player count using BattleMetrics API",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord.js",
+    "rust",
+    "battlemetrics",
+    "monitor",
+    "server"
+  ],
+  "author": "Etherinus",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
